@@ -11,7 +11,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #00a2ff; /* Celeste */
+    background-color: #00a2ff; 
 }
 
 img {
@@ -22,6 +22,53 @@ img {
     max-width: 1200px;
     margin: 0 auto;
 }
+/* Estilos del Navbar (barra de menu)*/
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Ajuste del padding */
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); /* Añadida sombra */
+}
+
+.menu-icono {
+    width: 25px;
+    color: #ffffff; /* Blanco */
+    cursor: pointer;
+    display: none; /* Ocultar el ícono en pantallas grandes */
+}
+
+.menu label {
+    cursor: pointer;
+}
+
+.menu label:hover {
+    color: #ee6e4a; /* Cambio de color al pasar el cursor */
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-right: 20px; /* Espaciado entre elementos del menú */
+}
+
+.navbar a {
+    color: #ffffff; /* Blanco */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #ee6e4a; /* Cambio de color al pasar el cursor */
+}
+
 
 /* Encabezado */
 .header {
