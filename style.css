@@ -128,7 +128,20 @@ img {
     color: #ee6e4a; /* anaranjado */
     margin-bottom: 20px;
 }
+/* Sección de Sobre Nosotros */
+.Sobre.Nosotros { /*id*/
+    background-color: #f4f4f4; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px;
+}
 
+.Sobre.Nosotros h3 { 
+    color: #000000; /* negro */
+}
+
+.Sobre.Nosotros p {
+    color: #000000; /* negro */
+}
 /* Sección de productos */
 .product {
     padding: 100px 0;
@@ -216,10 +229,4 @@ h3 {
     ::placeholder {
         color: #ffffff;
         font-size: 15px;
-    }
-
-    .btn-3 {
-        background-color: #00a2ff; /* Celeste */
-        cursor: pointer;
-        margin-right: 0;
     }
